@@ -1,22 +1,169 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Sarvesh Portfolio</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<script src="js/script.js" async></script>
+<script src="js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<h1>Hello Github  </h1>
-<p>This is a paragraph... asdasd asd</p>
-<button id="btn">This works</button>
+<header>
+    <Nav class="topnav">
+        <a href="#">SM</a>
+        <a href="#skills">Skills</a>
+        <a href="#proj">Projects & Awards</a>
+        <a href="#contact">Contact Me</a>
+    
+    </Nav>
+
+</header>
+
+<section class="intro_banner container-fluid text-center">
+    <h1></h1>
+    <div class="holder">
+    <div class="intro_holder">
+        <h1>Hello & Welcome, Sarvesh here... </h1>
+        
+    </div>  
+    <div class="img_holder">
+        <img src="img/SM.jpg" alt="my profile image" class="my_img" />
+    </div>
+    </div>
+</section>
+
+<section class="techskills_box" id="skills">
+    <h1></h1>
+    <div class="skills_wrapper">
+    <div class="skills_cont">
+        <div class="skills_sec htmlsec">
+            <h3>Web Development</h3>
+            <div class="skillbox">
+                <div class="skill_area">
+                    <div class="img_svg htmlsvg"></div>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg csssvg"></div>
+                    <p>CSS3 / Bootstrap</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg jssvg"></div>
+                    <p>JavaScript / TypeScript</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg jquerysvg"></div>
+                    <p>JQuery</p>
+                </div>
+            </div>
+        </div>
+        <div class="skills_sec frameork">
+            <h3>Frameworks</h3>
+            <div class="skillbox">
+                <div class="skill_area">
+                    <div class="img_svg npmsvg"></div>
+                    <p>Node NPM</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg angsvg"></div>
+                    <p>Angular</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg reactsvg"></div>
+                    <p>React JS</p>
+                </div>
+            </div>
+           
+        </div>
+        <div class="skills_sec techstack">
+            <h3>Tech Stack</h3>
+            <div class="skillbox">
+                <div class="skill_area">
+                    <div class="img_svg restsvg"></div>
+                    <p>REST API</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg githubsvg"></div>
+                    <p>GitHub/ Actions</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg postmansvg"></div>
+                    <p>POSTMAN</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg firebasesvg"></div>
+                    <p>Firebase</p>
+                </div>
+            </div>
+         </div>
+
+         <div class="skills_sec cloudstack">
+            <h3>Cloud Stack</h3>
+            <div class="skillbox">
+                <div class="skill_area">
+                    <div class="img_svg awssvg"></div>
+                    <p>AWS</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg azuresvg"></div>
+                    <p>Azure</p>
+                </div>
+                <div class="skill_area">
+                    <div class="img_svg m365svg"></div>
+                    <p>Microsoft 365</p>
+                </div>
+            </div>    
+         </div>
+        
+
+    </div>
+    </div>
+</section>
+
+<section class="projects_box" id="proj">
+    <h1>My Professional Tasks</h1>
+
+    <div class="projects_info">
+
+        <div class="prj_box">
+            <h3> Assessment Web Application </h3>
+            <p> Developed enhanced version of Candidate Console Web Application - An application used by candidates to give entrance examinations conducted by project throughout India</p>
+        </div>
+        <div class="prj_box">
+            <h3> A video interaction manager </h3>
+            <p> A Video interaction tool like Teams & Zoom used by client for organization collaboration </p>
+        </div>
+        <div class="prj_box">
+            <h3> Learning Products </h3>
+            <p> Display websites with microsites for in-depth display of information for respective Learning products. </p>
+        </div>
+        
+
+    </div>
+</section>
+
+<section class="accomplishments_bx">
+    <h1>My Accomplishments</h1>
+
+    <div class="projects_info">
+
+        <div class="prj_box">
+            <h3> Best design and development award for Assessment solution </h3>
+            
+        </div>
+        <div class="prj_box">
+            <h3> On the Spot Award for Video Interaction Solution </h3>
+           
+        </div>
+        
+        
+    </div>
+</section>
 
 
-<script>
 
-document.getElementById('btn').onclick =function(){
-    alert("Hi")
-}
-
-
-</script>
 </body>
 </html>
